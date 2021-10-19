@@ -77,7 +77,7 @@ nav a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: justify;
         padding: 10px 10px 20px 20px;
         background-color: #FFFFFF;
         color: #080808;
@@ -108,23 +108,26 @@ nav a {
         text-align: center;
         margin-top: 30px;
     }
+    #img-artigos{
+        text-align: center;
 
-    /*Fotos*/
+    }
+    /*Artigos*/
 
-    #fotos{
+    #artigos {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 20px;
-         }
+        padding: 30px;
+    }
+        #artigos div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
 
-         #fotos h2{
-             margin-bottom: 20px;
-         }
-
-         #fotos img {
-             width: 100%;
-         }
          #contato {
             display: flex;
             flex-direction: column;
@@ -171,15 +174,15 @@ nav a {
                  /*Serviços*/
 
                  #serviços {
-                     flex-direction: row;
-                     flex-wrap: wrap;
-                     align-items: flex-start;
-                     max-width: 1000px;
-                     margin: 0 auto;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    max-width: 1000px;
+                    margin: 0 auto;
             }
 
             #serviços h2 {
-                text-align: center;
+                text-align: cente;
                 width: 100%;
             }
 
@@ -188,21 +191,47 @@ nav a {
                 flex-basis: 150px;
                 padding: 0 10px;
             }
-
-            /*Fotos*/
-
-            #fotos {
-                flex-direction: row;
-                flex-wrap: wrap;
-            }
-            #fotos h2 {
-                width:  100%;
+            /*imagem artigos*/
+            #img-artigos{
                 text-align: center;
+
             }
-            #fotos img {
-                width: 33.3333333;
-             }
-             /*Contato*/
+            /*artigos*/
+            
+            #artigos {
+                padding: 50px;
+                font-size: 20;
+                text-align: justify;
+                flex-direction: row;
+                     flex-wrap: wrap;
+                     align-items: flex-start;
+                     max-width: 1000px;
+                     margin: 0 auto;
+                     margin-left: auto;
+                     margin-right: auto;
+
+            }
+            #artigos h2 {
+                margin-bottom: 20px;
+                text-align: center;
+                width: 100%;
+            }
+          #artigos p {
+                margin-bottom: 2.5em;
+                max-width: 1000px;
+            }
+          #artigos .botão{
+                background-color: #f1f1f1;
+                color: #1c1c1c;
+            }
+            #artigos div {
+                flex-grow: 1;
+                flex-basis: 150px;
+                padding: 0 10px;
+            }
+
+        
+            /*Contato*/
              #contato {
                  flex-direction: row;
                  flex-wrap: wrap;
